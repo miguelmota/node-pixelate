@@ -8,6 +8,8 @@ Pixelate images
 npm install pixelate
 ```
 
+It's using [node-canvas](https://github.com/Automattic/node-canvas) (rather than [ImageMagick](http://www.imagemagick.org/)) and one of the requirements for it is the [Cairo](http://cairographics.org/) canvas implementation, so Cairo needs to be installed. [Instructions](https://github.com/Automattic/node-canvas/wiki/_pages).
+
 # Usage
 
 ```javascript
