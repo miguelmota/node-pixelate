@@ -15,6 +15,7 @@ var fs = require('fs');
 var pixelate = require('pixelate');
 
 fs.readFile(__dirname + '/images/street.png', function(error, dataBuffer) {
+  if (error) throw error;
   pixelate(dataBuffer, {
     // scale down 90 percent (really pixelated). Default: 0.
     scale: 0.9,
