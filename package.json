@@ -1,0 +1,27 @@
+{
+  "name": "pixelate",
+  "version": "0.0.1",
+  "description": "Pixelate images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^1.2.1",
+    "gm": "^1.17.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/miguelmota/node-pixelate"
+  },
+  "keywords": [
+    "pixelate"
+  ],
+  "bugs": {
+    "url": "https://github.com/miguelmota/node-pixelate/issues"
+  },
+  "homepage": "https://github.com/miguelmota/node-pixelate"
+}
