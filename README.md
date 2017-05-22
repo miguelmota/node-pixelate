@@ -5,7 +5,7 @@ Pixelate images
 # Install
 
 ```
-npm install pixelate
+npm install node-pixelate
 ```
 
 It's using [node-canvas](https://github.com/Automattic/node-canvas) (rather than [ImageMagick](http://www.imagemagick.org/)) and one of the requirements for it is the [Cairo](http://cairographics.org/) canvas implementation, so Cairo needs to be installed. [Instructions](https://github.com/Automattic/node-canvas/wiki/_pages).
@@ -14,7 +14,7 @@ It's using [node-canvas](https://github.com/Automattic/node-canvas) (rather than
 
 ```javascript
 var fs = require('fs');
-var pixelate = require('pixelate');
+var pixelate = require('node-pixelate');
 
 fs.readFile(__dirname + '/images/street.png', function(error, dataBuffer) {
   if (error) throw error;

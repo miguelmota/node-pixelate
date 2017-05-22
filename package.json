@@ -1,5 +1,5 @@
 {
-  "name": "pixelate",
+  "name": "node-pixelate",
   "version": "0.0.1",
   "description": "Pixelate images",
   "main": "index.js",
