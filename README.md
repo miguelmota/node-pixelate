@@ -2,7 +2,7 @@
 
 Pixelate images
 
-<img src="https://raw.githubusercontent.com/miguelmota/node-pixelate/master/screenshot.jpg" width="700">
+<img src="https://raw.githubusercontent.com/miguelmota/node-pixelate/master/screenshot.png" width="700">
 
 # Install
 
