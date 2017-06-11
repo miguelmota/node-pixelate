@@ -9,8 +9,8 @@
   "author": "Miguel Mota <hello@miguelmota.com> (http://www.miguelmota.com/)",
   "license": "MIT",
   "dependencies": {
-    "canvas": "^1.2.1",
-    "gm": "^1.17.0"
+    "canvas": "^1.6.5",
+    "gm": "^1.23.0"
   },
   "devDependencies": {},
   "repository": {

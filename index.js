@@ -36,9 +36,9 @@ function pixelate(dataBuffer, options, callback) {
   var canvas = new Canvas(width, height);
   var context = canvas.getContext('2d');
 
-  // Disable pixel smoothing to gives those crisp edges.
-  context.imageSmoothingEnabled = false;
-  context.patternQuality = 'fast';
+  // Disable pixel smoothing to give those crisp edges.
+  //context.imageSmoothingEnabled = false;
+  //context.patternQuality = 'fast';
 
   // Resize to smaller image.
   gm(dataBuffer).resize(scaledWidth).toBuffer('PNG', function(err, buffer) {
