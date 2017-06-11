@@ -1,6 +1,6 @@
 {
   "name": "node-pixelate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pixelate images",
   "main": "index.js",
   "scripts": {
